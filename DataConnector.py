@@ -11,6 +11,7 @@ class DataConnector():
         # to assign attributes in the init method
         self.conn = sqlite3.Connection(filename)
 
+        
 
     # have a method that can list all of the table names of my db 
     def get_table_names(self):
