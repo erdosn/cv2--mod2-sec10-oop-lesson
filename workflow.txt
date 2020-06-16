@@ -1,0 +1,16 @@
+# what classes do I need? 
+
+# how many files do I need?
+1 file
+
+
+DataConnector
+	 - connect to db
+	 - list tables
+	 - load specific tables as df
+PaymentsConnector
+	 - all of the above
+	- query by customerNumber
+	- query by amount
+OrderConnector
+	- query by order number
